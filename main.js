@@ -2,7 +2,7 @@ const { app, BrowserWindow } = require('electron')
 
 function createWindow () {
   // Create the browser window.
-  const win = new BrowserWindow({
+  const window = new BrowserWindow({
     width: 800,
     height: 600,
     webPreferences: {
@@ -11,10 +11,14 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  win.loadFile('index.html')
+  window.loadFile('index.html')
+
+  //hide menu bar
+  window.setMenuBarVisibility(false)
 
   // Open the DevTools.
   // win.webContents.openDevTools()
+
 }
 
 // This method will be called when Electron has finished
