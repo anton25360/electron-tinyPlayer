@@ -43,3 +43,13 @@ div{
     display: flex;
     justify-content: space-evenly;
  }
+
+ #logout{
+     font-family: 'pro';
+     color: rgb(12, 211, 39);
+     margin-right: 15px ;
+     position: fixed;
+     bottom: 0;
+     right: 0;
+
+ }
