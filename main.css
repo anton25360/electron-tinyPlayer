@@ -9,7 +9,7 @@ html {
     /* border: 2px solid blue; */
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: rgb(29, 29, 29);
 }
 /* 
 div{
@@ -27,6 +27,7 @@ div{
 
  .songInfo {
     /* border: 2px solid orangered; */
+    font-size: 20px;
     color: white;
     text-align: center;
     margin: 15px 0 25px 0;
