@@ -1,22 +1,44 @@
+@font-face {
+    font-family: 'pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
 html {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding: 0;
     margin: 0;
+    background-color: black;
 }
-
-#albumArt{
+/* 
+div{
     border: 2px solid red;
-    padding: 0;
-    margin: 0;
-    /* object-fit: fill; */
-
-    /* height: 250px; */
+} */
+.songArt{
+    padding: 15px;
 }
 
-img{
-    /* object-fit: cover; */
-    /* border: 4px solid orange; */
+.songArt img {
     width: 100%;
-    height: 100%;
+    border-radius: 4px;
+    /* padding: 20px; */
+ }
 
-}
+ .songInfo {
+    /* border: 2px solid orangered; */
+    color: white;
+    text-align: center;
+    margin: 15px 0 25px 0;
+    font-family: 'pro';
+ }
+
+ .songInfo p {
+    margin: 0;
+ }
+
+ .songPlayback {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+ }
